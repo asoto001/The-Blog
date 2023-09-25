@@ -1,12 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
+    border: 1px solid black;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
 
-    
+}
+
+main {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
 }
 
 .head {
-    border: solid 1px rgb(0, 0, 0);
-    border-radius: 15px;
+    background-color: rgba(0, 0, 255, 0.363);
+
+
 }
