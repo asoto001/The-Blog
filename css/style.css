@@ -2,4 +2,11 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
+
+    
+}
+
+.head {
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 15px;
 }
