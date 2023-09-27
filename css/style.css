@@ -25,6 +25,30 @@ main {
 
 .head {
     background-color: rgba(0, 0, 255, 0.363);
+}
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    /* border: 1px solid; */
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    color: white;
+}
 
+.footer img {
+    height: 40px;
+}
+
+.footer .text_div {
+    font-size: small;
+    font-family: 'Lora', serif;
+}
+
+.footer .text_div h3 {
+    font-size: 30px;
 }
