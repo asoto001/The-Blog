@@ -25,6 +25,15 @@ main .main_text{
     text-align: center;
 }
 
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    height: 290px;
+}
+
 .head {
     background-color: #000000;
     color: #F5EDED;
